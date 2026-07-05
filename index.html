@@ -1,0 +1,61 @@
+---
+layout: default
+title: Home
+---
+<section class="hero">
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Forward Pickleball Coaching</p>
+    <h1>Play smarter. Move better. Win more points.</h1>
+    <p class="lead">
+      Private lessons, group clinics, and a growing library of coaching notes
+      for players who want to take their pickleball game seriously &mdash;
+      whether you're picking up a paddle for the first time or chasing a
+      5.0 rating.
+    </p>
+    <div class="hero-actions">
+      <a class="button" href="{{ '/contact/' | relative_url }}">Book a Lesson</a>
+      <a class="button button-ghost" href="{{ '/blog/' | relative_url }}">Read the Blog</a>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <h2>Coaching that meets you where you are</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>1-on-1 Private Lessons</h3>
+      <p>Focused feedback on your footwork, dinking, and shot selection &mdash; tailored to your rating and goals.</p>
+    </div>
+    <div class="card">
+      <h3>Group Clinics</h3>
+      <p>Drill-based sessions covering strategy, doubles positioning, and third-shot execution with fellow players.</p>
+    </div>
+    <div class="card">
+      <h3>Tournament Prep</h3>
+      <p>Game-plan sessions and mental-game coaching to help you peak for medal matches and league play.</p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="section-header">
+    <h2>Latest from the blog</h2>
+    <a href="{{ '/blog/' | relative_url }}">View all posts &rarr;</a>
+  </div>
+  <div class="post-grid">
+    {% for post in site.posts limit:3 %}
+    <a class="post-card" href="{{ post.url | relative_url }}">
+      {% if post.category %}<span class="post-category">{{ post.category }}</span>{% endif %}
+      <h3>{{ post.title }}</h3>
+      <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<section class="wrap section cta-section">
+  <h2>Ready to sharpen your game?</h2>
+  <p>Spots are limited each week for private lessons &mdash; reach out and let's build a plan around your goals.</p>
+  <a class="button" href="{{ '/contact/' | relative_url }}">Get in Touch</a>
+</section>

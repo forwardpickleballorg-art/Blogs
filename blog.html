@@ -1,0 +1,24 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+<section class="wrap section">
+  <header class="page-header">
+    <h1>Coaching Notes &amp; Blog</h1>
+    <p class="lead">Drills, strategy breakdowns, and lessons from the court.</p>
+  </header>
+
+  <div class="post-list">
+    {% for post in site.posts %}
+    <a class="post-list-item" href="{{ post.url | relative_url }}">
+      <div class="post-list-meta">
+        {% if post.category %}<span class="post-category">{{ post.category }}</span>{% endif %}
+        <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+      </div>
+      <h2>{{ post.title }}</h2>
+      <p>{{ post.excerpt | strip_html | truncate: 160 }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>

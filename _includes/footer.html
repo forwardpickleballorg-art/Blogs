@@ -1,0 +1,22 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-col">
+      <span class="brand-mark">FP</span>
+      <p>Forward Pickleball Coaching &mdash; helping players of every level move better, think smarter, and win more points.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      {% for item in site.navigation %}
+      <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+      {% endfor %}
+    </div>
+    <div class="footer-col">
+      <h4>Get in touch</h4>
+      <a href="{{ '/contact/' | relative_url }}">Book a lesson</a>
+      <a href="mailto:coach@forwardpickleball.com">coach@forwardpickleball.com</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>&copy; {{ 'now' | date: "%Y" }} Forward Pickleball Coaching. All rights reserved.</p>
+  </div>
+</footer>
