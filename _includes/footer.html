@@ -1,8 +1,8 @@
 <footer class="site-footer">
   <div class="wrap">
     <div class="footer-col">
-      <span class="brand-mark">FP</span>
-      <p>Forward Pickleball Coaching &mdash; helping players of every level move better, think smarter, and win more points.</p>
+      <img class="brand-mark" src="{{ '/assets/images/logo.svg' | relative_url }}" alt="Dive Forward Pickleball logo">
+      <p>Forward Together through purposeful drilling, modern coaching &amp; a supportive community.</p>
     </div>
     <div class="footer-col">
       <h4>Explore</h4>
@@ -13,10 +13,11 @@
     <div class="footer-col">
       <h4>Get in touch</h4>
       <a href="{{ '/contact/' | relative_url }}">Book a lesson</a>
-      <a href="mailto:coach@forwardpickleball.com">coach@forwardpickleball.com</a>
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <span class="footer-address">{{ site.address }}</span>
     </div>
   </div>
   <div class="wrap footer-bottom">
-    <p>&copy; {{ 'now' | date: "%Y" }} Forward Pickleball Coaching. All rights reserved.</p>
+    <p>&copy; {{ 'now' | date: "%Y" }} Dive Forward Pickleball. All rights reserved.</p>
   </div>
 </footer>

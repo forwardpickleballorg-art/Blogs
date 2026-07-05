@@ -70,17 +70,9 @@ a:hover { text-decoration: underline; }
 }
 .brand:hover { text-decoration: none; }
 .brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  background: var(--brand);
-  color: #fff;
-  font-family: Georgia, serif;
-  font-size: 0.85rem;
-  letter-spacing: 0.02em;
+  display: block;
+  height: 40px;
+  width: auto;
 }
 .brand-name { font-size: 1.05rem; }
 .site-nav { display: flex; gap: 24px; }
@@ -187,6 +179,15 @@ a:hover { text-decoration: underline; }
 .post-list-meta { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
 .post-list-item h2 { font-size: 1.35rem; margin-bottom: 8px; }
 
+.chant-section { text-align: center; padding-top: 8px; }
+.chant {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-size: clamp(1.1rem, 2.4vw, 1.6rem);
+  color: var(--brand-dark);
+  margin: 0;
+}
+
 /* Post detail */
 .post-header { margin-bottom: 24px; }
 .post-header h1 { font-size: clamp(1.75rem, 3vw, 2.25rem); }
@@ -245,6 +246,14 @@ a:hover { text-decoration: underline; }
 .footer-col a { display: block; color: #b7c0ba; margin-bottom: 8px; }
 .footer-col a:hover { color: #fff; }
 .footer-col p { color: #9aa39d; }
+.footer-col .brand-mark {
+  height: 40px;
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+  margin-bottom: 14px;
+}
+.footer-address { display: block; color: #9aa39d; }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.1);
   padding: 16px 24px 24px;

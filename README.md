@@ -1,6 +1,6 @@
-# Forward Pickleball Coaching Blog
+# Dive Forward Pickleball Blog
 
-A Jekyll site for Forward Pickleball Coaching's website and blog.
+A Jekyll site for Dive Forward Pickleball's website and blog.
 
 ## Structure
 

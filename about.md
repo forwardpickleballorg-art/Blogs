@@ -4,20 +4,23 @@ title: About
 permalink: /about/
 ---
 <section class="wrap section-narrow">
-  <h1>About Forward Pickleball Coaching</h1>
+  <h1>About Dive Forward Pickleball</h1>
   <p>
-    Forward Pickleball Coaching was started with one goal: help players enjoy
-    the game more by getting better at it, faster. We work with beginners
-    learning the rules and the kitchen line, intermediate players trying to
-    break through a rating plateau, and competitive players preparing for
-    tournaments.
+    Dive Forward Pickleball was started with one goal: Forward Together
+    through purposeful drilling, modern coaching, and a supportive
+    community. We work with beginners learning the rules and the kitchen
+    line, intermediate players trying to break through a rating plateau,
+    and competitive players preparing for tournaments.
   </p>
   <p>
-    Our coaching philosophy centers on three things &mdash; consistent
-    fundamentals, smart shot selection, and a game plan you actually
-    understand. Every lesson and clinic is built around drills that translate
-    directly to real points.
+    Every lesson and clinic runs on the same cycle &mdash; the
+    <strong>DIVE</strong> method: <strong>D</strong>rilling,
+    <strong>I</strong>nternalizing, <strong>V</strong>alidating, and
+    <strong>E</strong>njoying. We drill with purpose, give the skill time to
+    become natural, test it under real point pressure, and keep the whole
+    process fun along the way.
   </p>
+  <p class="chant">Consistency &middot; Opportunities &middot; Patience &middot; Yeah!</p>
   <h2>What we offer</h2>
   <ul>
     <li>Private 1-on-1 lessons</li>

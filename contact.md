@@ -10,8 +10,7 @@ permalink: /contact/
     follow up to schedule your session.
   </p>
   <div class="contact-details">
-    <p><strong>Email:</strong> <a href="mailto:coach@forwardpickleball.com">coach@forwardpickleball.com</a></p>
-    <p><strong>Phone:</strong> (555) 010-2025</p>
-    <p><strong>Location:</strong> Serving local courts and clubs &mdash; ask about mobile coaching in your area.</p>
+    <p><strong>Email:</strong> <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    <p><strong>Location:</strong> {{ site.address }}</p>
   </div>
 </section>

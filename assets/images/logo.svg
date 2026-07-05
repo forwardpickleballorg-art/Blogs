@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">Dive Forward Pickleball</title>
+  <g transform="skewX(-10)" font-family="Arial, Helvetica, sans-serif" font-weight="800">
+    <text x="70" y="150" font-size="92" fill="#152a4e" letter-spacing="1">DIVE</text>
+    <g fill="#7cc242">
+      <polygon points="430,95 545,108 430,121"/>
+      <polygon points="430,128 515,138 430,148"/>
+      <polygon points="430,152 495,159 430,166"/>
+    </g>
+    <text x="40" y="235" font-size="80" fill="#152a4e" letter-spacing="1">FORWARD</text>
+    <text x="70" y="290" font-size="40" fill="#7cc242" letter-spacing="9">PICKLEBALL</text>
+    <rect x="10" y="270" width="50" height="6" fill="#7cc242"/>
+    <rect x="450" y="270" width="50" height="6" fill="#7cc242"/>
+  </g>
+</svg>
